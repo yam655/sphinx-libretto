@@ -1,0 +1,177 @@
+/*
+ * libretto.css
+ * ~~~~~~~
+ *
+ * Sphinx stylesheet -- libretto theme.
+ *
+ * :copyright: Copyright 2017 by Steven W. Black
+ * :license: BSD, see LICENSE for details.
+ *
+ */
+
+@import url("alabaster.css");
+
+div.body h1 {
+    font-size: 104%;
+    /*
+    -moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp'; 
+    */
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+div.body h2 {
+    font-size: 102%;
+    /*
+    -moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp'; 
+    */
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-style: italic; 
+}
+
+div.body h3 {
+    font-size: 100%;
+    /*
+    -moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp'; 
+    */
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.jagged div.line:nth-child(even) {
+    /* margin-left: 1em; */
+    margin-left: 1%;
+}
+
+strong {
+    /*
+    -moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp'; 
+    */
+    font-variant: small-caps;
+}
+
+div.action {
+    font-style: italic; 
+/*%   text-indent: -4em;
+    margin-left: 4em; */
+}
+
+.actor, cite {
+    /*-moz-font-feature-settings: 'smcp';
+    -webkit-font-feature-settings: 'smcp';
+    -ms-font-feature-settings: 'smcp';
+    font-feature-settings: 'smcp'; */
+    font-variant: small-caps;
+    font-weight: bold; 
+}
+
+blockquote p > cite, blockquote p > .actor{
+    font-weight: bold; 
+}
+
+p.rubric {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 90%;
+}
+
+blockquote .line-block {
+    margin-top: 0.5em;
+}
+
+table.docutils .line-block {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table.docutils td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table.docutils th {
+    /*text-align: center;*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div.body > div > blockquote > div > p {
+    /*margin-left: 8em;
+    text-indent: 0em;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0.5em;
+    text-indent: 0%;
+    /* text-align: center; */
+}
+
+blockquote {
+    width: 50%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    blockquote {
+        width: 60%;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    blockquote {
+        width: 70%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    blockquote {
+        width: 80%;
+    } 
+}
+
+
+blockquote {
+    /*margin-left: 4%;
+    margin-right: 4%;*/
+    margin: auto;
+}
+
+.line {
+    text-indent: -8%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+div.body   p {
+    /*text-indent: -4em;
+    margin-left: 4em;*/
+    text-indent: -8%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+table.docutils {
+    border: none !important;
+    /* margin-left: 4em; */
+    box-shadow: none;
+    margin: auto;
+    width: 100%;
+
+}
+
+table.docutils td, table.docutils th { 
+    border: none !important;
+}
+
